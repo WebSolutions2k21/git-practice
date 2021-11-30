@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  color: #efefef;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.img {
+  width: 120px;
+  border-radius: 50%;
+  position: fixed;
+  margin: 1em;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  background-color: tomato;
+  width: max-content;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 1px 1px 80px rgba(255, 255, 255, 0.3);
+  border: 8px solid #31849f;
+}
+
+.box__title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.box__mentor {
+  background-color: #31849f;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.box__team {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.box__memeber {
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  text-align: left;
+  color: #333;
+  background-color: #efefef;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box__memeber:nth-child(even) {
+  border: 4px solid #a3ea41;
+}
+
+.box__memeber:nth-child(odd) {
+  border: 4px solid #ffa547;
+}
+
+span {
+  color: #666;
+}
