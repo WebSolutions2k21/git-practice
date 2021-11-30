@@ -12,7 +12,7 @@ git commit -m "komentarz"       ->  zatwierdzenie zmian
 git push -u origin main         ->  wgranie zmian do zdalnego repozytorium
 ```
 
-## Gałęzie "Brunch"
+## Gałęzie "Branch"
 
 ```sh
 git branch [name]               -> towrzy nowy branch
